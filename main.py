@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
 
-fruits = ['apple','banana','blueberry','orange']
+fruits = ['apple','strawberry','blueberry','orange']
 counts = [25,30,120,16]
 
-bar_labels = ['red','yellow','blue','orange']
-bar_colors = ['tab:red','tab:yellow','tab:blue','tab:orange']
+bar_labels = ['red','red','blue','orange']
+bar_colors = ['tab:red','tab:red','tab:blue','tab:orange']
 
 ax.bar(fruits, counts, label = bar_labels, color= bar_colors)
 
