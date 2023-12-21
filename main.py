@@ -3,17 +3,17 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
 
-fruits = ['apple','strawberry','blueberry','orange']
-counts = [25,30,120,16]
+clubs = ['ManUtd','Liverpool','Chelsea','ShaktarFC']
+counts = [65,30,12,6]
 
 bar_labels = ['red','red','blue','orange']
 bar_colors = ['tab:red','tab:red','tab:blue','tab:orange']
 
-ax.bar(fruits, counts, label = bar_labels, color= bar_colors)
+ax.bar(clubs, counts, label = bar_labels, color= bar_colors)
 
-ax.set_ylabel('fruit supply')
-ax.set_title('Fruit supply by kind and color')
-ax.legend(title='Fruit Color')
+ax.set_ylabel('Club Trophies')
+ax.set_title('Clubs by trophy count and color')
+ax.legend(title='Football Clubs')
 
 plt.savefig('bars.png',bbox_inches='tight')
 
