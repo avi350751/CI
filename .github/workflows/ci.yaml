@@ -4,6 +4,7 @@ name: CI Pipeline
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
